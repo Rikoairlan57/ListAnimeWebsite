@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import FirstPage from "./pages/FirstPage";
+import HomePage from "./pages/HomePage";
 import TopAnime from "./pages/TopAnime";
 import TopManga from "./pages/TopManga";
 import SeasonalAnime from "./pages/SeasonalAnime";
@@ -22,7 +22,7 @@ function App() {
       </div>
       <div className="my-16 mx-3">
         <Routes>
-          <Route path="/" element={<FirstPage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/anime/top" element={<TopAnime />} />
           <Route path="/anime/seasonal" element={<SeasonalAnime />} />
           <Route path="/anime/upcoming" element={<UpcomingAnime />} />

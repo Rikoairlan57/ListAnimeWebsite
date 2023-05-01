@@ -7,11 +7,15 @@ import SeasonalAnime from "./pages/SeasonalAnime";
 import UpcomingAnime from "./pages/UpcomingAnime";
 import AnimeSearch from "./pages/AnimeSearch";
 import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
     <div className="flex flex-col">
       <div>
+        <div className="block md:hidden">
+          <Sidebar />
+        </div>
         <div className="hidden md:block h-16">
           <Navbar />
         </div>

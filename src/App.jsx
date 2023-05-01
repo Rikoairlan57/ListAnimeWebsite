@@ -28,6 +28,7 @@ function App() {
           <Route path="/anime/upcoming" element={<UpcomingAnime />} />
           <Route path="/anime/search" element={<AnimeSearch />} />
           <Route path="/manga/top" element={<TopManga />} />
+          <Route path="/*" element={<PageNotFound />} />
         </Routes>
       </div>
     </div>

@@ -1,7 +1,5 @@
-import { Slider } from "../components";
-
 import { Link } from "react-router-dom";
-import { BigSlider } from "../components";
+import { BigSlider, Slider } from "../components";
 import {
   useGetSeasonNowQuery,
   useGetTopAnimeQuery,

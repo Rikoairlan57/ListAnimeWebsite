@@ -8,6 +8,8 @@ import UpcomingAnime from "./pages/UpcomingAnime";
 import AnimeSearch from "./pages/AnimeSearch";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
+import PageNotFound from "./components/PageNotFound";
+import DetailPage from "./pages/DetailPage";
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
       <div className="my-16 mx-3">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/anime/detail/:id" element={<DetailPage />} />
           <Route path="/anime/top" element={<TopAnime />} />
           <Route path="/anime/seasonal" element={<SeasonalAnime />} />
           <Route path="/anime/upcoming" element={<UpcomingAnime />} />

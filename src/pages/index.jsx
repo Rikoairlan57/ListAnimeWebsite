@@ -1,12 +1,14 @@
-import FirstPage from "./HomePage";
+import HomePage from "./HomePage";
 import TopAnime from "./TopAnime";
 import SeasonalAnime from "./SesionalAnime";
 import UpcomingAnime from "./UpcomingAnime";
 import AnimeSearch from "./AnimeSearch";
 import TopManga from "./TopManga";
+import DetailPage from "./DetailPage";
 
 export {
-  FirstPage,
+  HomePage,
+  DetailPage,
   TopAnime,
   SeasonalAnime,
   UpcomingAnime,

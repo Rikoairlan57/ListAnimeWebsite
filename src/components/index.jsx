@@ -8,6 +8,8 @@ import Slider from "./Slider";
 import SlideLoad from "./SlideLoad";
 import Detail from "./Detail";
 import Loading from "./Loading";
+import Page from "./Page";
+import PageLoad from "./PageLoad";
 
 export {
   Sidebar,
@@ -20,4 +22,6 @@ export {
   Slider,
   SlideLoad,
   Detail,
+  Page,
+  PageLoad,
 };

@@ -6,5 +6,18 @@ import Card from "./Card";
 import CardLoad from "./CardLoad";
 import Slider from "./Slider";
 import SlideLoad from "./SlideLoad";
+import Detail from "./Detail";
+import Loading from "./Loading";
 
-export { Sidebar, Navbar, BigSlider, Error, Card, CardLoad, Slider, SlideLoad };
+export {
+  Sidebar,
+  Loading,
+  Navbar,
+  BigSlider,
+  Error,
+  Card,
+  CardLoad,
+  Slider,
+  SlideLoad,
+  Detail,
+};

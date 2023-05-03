@@ -76,7 +76,7 @@ const HomePage = () => {
         error={topErr}
         data={topAnimeDisplay}
       />
-
+      {/*coming soon maybe?!?!?!*/}
       <br />
       <br />
     </div>

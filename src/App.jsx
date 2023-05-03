@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import PageNotFound from "./components/PageNotFound";
 import DetailPage from "./pages/DetailPage";
+import { Searchbar } from "./components";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <div className="hidden md:block h-16">
           <Navbar />
         </div>
+        <Searchbar />
       </div>
       <div className="my-16 mx-3">
         <Routes>

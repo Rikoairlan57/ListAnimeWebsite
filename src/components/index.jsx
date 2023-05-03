@@ -10,6 +10,7 @@ import Detail from "./Detail";
 import Loading from "./Loading";
 import Page from "./Page";
 import PageLoad from "./PageLoad";
+import Searchbar from "./Searchbar";
 
 export {
   Sidebar,
@@ -18,6 +19,7 @@ export {
   BigSlider,
   Error,
   Card,
+  Searchbar,
   CardLoad,
   Slider,
   SlideLoad,

@@ -5,6 +5,7 @@ import UpcomingAnime from "./UpcomingAnime";
 import AnimeSearch from "./AnimeSearch";
 import TopManga from "./TopManga";
 import DetailPage from "./DetailPage";
+import Search from "./Search";
 
 export {
   HomePage,
@@ -14,4 +15,5 @@ export {
   UpcomingAnime,
   AnimeSearch,
   TopManga,
+  Search,
 };

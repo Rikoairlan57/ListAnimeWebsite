@@ -11,6 +11,7 @@ import Sidebar from "./components/Sidebar";
 import PageNotFound from "./components/PageNotFound";
 import DetailPage from "./pages/DetailPage";
 import { Searchbar } from "./components";
+import MangaDetail from "./pages/MangaDetail";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/anime/upcoming" element={<UpcomingAnime />} />
           <Route path="/anime/search" element={<AnimeSearch />} />
           <Route path="/manga/top" element={<TopManga />} />
+          <Route path="/manga/detail/:id" element={<MangaDetail />} />
           <Route path="/*" element={<PageNotFound />} />
         </Routes>
       </div>
